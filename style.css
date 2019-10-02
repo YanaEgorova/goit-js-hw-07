@@ -3,6 +3,26 @@ body {
   padding: 0;
 }
 
+/* CATEGORIES */
+
+#categories {
+  margin: 0;
+  background-color: rgb(191, 235, 187);
+}
+
+#categories h2 {
+  margin: 0;
+}
+
+/* INGREDIENTS */
+
+#ingredients {
+  margin: 0;
+  background-color: rgb(250, 252, 146);
+  padding: 50px 50px;
+}
+
+/* GALLERY */
 
 #gallery {
   display: -webkit-box;
@@ -11,8 +31,8 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  width: 800px;
   margin: 0 auto;
+  background-color: rgb(252, 176, 146);
   padding: 0;
 }
 
@@ -23,6 +43,13 @@ body {
 
 #gallery img {
   width: 200px;
+}
+
+/* COUNTER */
+
+#counter {
+  background-color: rgb(178, 214, 243);
+  padding: 50px 0 50px 0;
 }
 
 #counter button {
@@ -36,10 +63,38 @@ span {
   font-size: 30px;
 }
 
+/* TEXT */
+
+.text {
+  background-color: rgb(231, 185, 220);
+  padding: 50px 0 50px 0;
+}
+
+/* VALIDATION-INPUT */
+
+.validation-input {
+  background-color: rgb(204, 188, 235);
+  padding: 50px 0 50px 0;
+}
+
 #validation-input.valid {
   outline: 3px solid #4caf50;
 }
 
 #validation-input.invalid {
   outline: 3px solid #f44336;
+}
+
+/* FONT-SIZE */
+
+#font-size {
+  background-color: rgb(188, 235, 200);
+  padding: 50px 0 50px 0;
+}
+
+/* CONTROLS */
+
+#controls {
+  background-color: rgb(235, 247, 171);
+  padding: 50px 0 50px 0;
 }
